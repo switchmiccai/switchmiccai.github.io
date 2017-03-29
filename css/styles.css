@@ -356,9 +356,11 @@ Navigation
 /* ==========================================================================
 Hero
 ========================================================================== */
+
+
 .hero {
   min-height: 550px;
-  background: url("../img/hero.jpg") center center;
+  background: url("../img/imagingv2.jpg") center center;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -467,7 +469,7 @@ dates
 ========================================================================== */
   .dates span {
     float: left;
-    width:100px;
+    width:180px;
   }
 
 /* ==========================================================================
@@ -555,6 +557,46 @@ Features-stack
     top: 114px;
     z-index: 4;
     left: 50%; }
+
+
+.people {
+  height: 85px;
+  display: block;
+}
+
+.people-portrait img:hover {
+  border: 1px solid darkorange;
+}
+
+
+
+.people-portrait img {
+  border: 1px solid lightgray;
+  width:75px;
+  height:75px;
+}
+
+
+.people-portrait {
+  min-height: 86px;
+  min-width: 86px;
+  max-height: 86px;
+  max-width: 86px;
+  padding: 0px;
+  padding-left: 10px;
+  margin: 15px;
+}
+
+.people-text {
+  padding-left: 0px;
+  padding-top: 7px;
+  display: inline-block;
+}
+
+.people-text h4 {
+  line-height: 20px;
+}
+
 
 /* ==========================================================================
 .hero-strip
