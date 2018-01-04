@@ -1,6 +1,6 @@
 # SWITCH Website
 
-Website of first edition of the `SWITCH: Stroke Workshop on Imaging and Treatment CHallenges`. 
+Website of first edition of the [SWITCH: Stroke Workshop on Imaging and Treatment CHallenges](http://switchmiccai.mit.edu). 
 
 
 ## Credits 
