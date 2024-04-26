@@ -5,10 +5,11 @@
 Typography
 ========================================================================== */
 p {
-  font-size: 17px;
+  font-size: 19px;
   line-height: 22px;
   color: rgba(28, 54, 83, 1);
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  }
 
 h1 {
   font-size: 60px; }
@@ -115,8 +116,9 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: rgba(28, 54, 83, 1);
-  font-size: 16px;
-  -webkit-text-size-adjust: 100%; }
+  font-size: 20px;
+  -webkit-text-size-adjust: 100%;
+  }
 
 ul, ol {
   margin: 0;
@@ -131,7 +133,8 @@ ul li {
 }
 
 .section-padding {
-  padding: 120px 0; }
+  padding: 50px 0;
+  }
 
 .tooltip {
   position: absolute;
@@ -476,9 +479,10 @@ dates
 Features-stack
 ========================================================================== */
 .features {
-  position: relative; 
-  padding-top:85px;
- padding-bottom:50px;}
+  position: relative;
+  padding-top: 60px;
+  padding-bottom:50px;
+  }
 
   .features p {
     margin-bottom: 0;
@@ -544,9 +548,10 @@ Features-stack
 ========================================================================== */
 .features-extra {
   position: relative;
-  padding-top:85px;
+  padding-top: 60px;
   padding-bottom:50px;
-  z-index: 3; }
+  z-index: 3;
+  }
   .features-extra .btn {
     margin-top: 20px; }
   .features-extra .macbook-wrap {
@@ -704,8 +709,9 @@ Features-stack
 .testimonial-slider
 ========================================================================== */
 .testimonial-slider {
-  background: url("../img/testimonials-bg.jpg") no-repeat center center;
-  background-size: cover; }
+  background: url("../img/polygonal-bg.jpg") no-repeat center center;
+  background-size: cover;
+  }
   .testimonial-slider .avatar {
     width: 82px;
     height: 82px;
