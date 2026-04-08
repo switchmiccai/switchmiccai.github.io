@@ -23,6 +23,38 @@ $(document).ready(function() {
 		animation: "slide"
 	});
 
+	/***************** Horizontal Photos Strip Drag ******************/
+	var photosScroll = document.getElementById('photos-scroll');
+	if (photosScroll) {
+		var isDragging = false;
+		var dragStartX = 0;
+		var scrollStartLeft = 0;
+
+		photosScroll.addEventListener('mousedown', function(event) {
+			isDragging = true;
+			dragStartX = event.pageX - photosScroll.offsetLeft;
+			scrollStartLeft = photosScroll.scrollLeft;
+		});
+
+		photosScroll.addEventListener('mouseleave', function() {
+			isDragging = false;
+		});
+
+		photosScroll.addEventListener('mouseup', function() {
+			isDragging = false;
+		});
+
+		photosScroll.addEventListener('mousemove', function(event) {
+			if (!isDragging) {
+				return;
+			}
+			event.preventDefault();
+			var currentX = event.pageX - photosScroll.offsetLeft;
+			var deltaX = (currentX - dragStartX) * 1.2;
+			photosScroll.scrollLeft = scrollStartLeft - deltaX;
+		});
+	}
+
 	/***************** Initiate Fancybox ******************/
 
 	$('.single_image').fancybox({

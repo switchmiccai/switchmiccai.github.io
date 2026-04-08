@@ -735,6 +735,65 @@ Features-stack
     text-transform: uppercase;
     letter-spacing: 2px; }
 
+  .photos-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: grab;
+    padding-bottom: 16px;
+    scrollbar-width: thin;
+  }
+
+  .photos-scroll:active {
+    cursor: grabbing;
+  }
+
+  .photos-track {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    min-width: max-content;
+  }
+
+  .photo-year-panel {
+    width: 320px;
+    flex: 0 0 320px;
+  }
+
+  .photos-track .photo-year-panel h3 {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: #fff !important;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 0 14px 0;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  .photo-year-panel .flexslider {
+    margin: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .photo-year-panel .slides li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .photo-year-panel .slides img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 8px;
+  }
+
 /* ==========================================================================
 Sign up form
 ========================================================================== */
