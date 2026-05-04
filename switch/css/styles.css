@@ -379,6 +379,8 @@ Hero
     margin-bottom: 80px; }
   .hero .hero-content {
     padding-top: 26%; }
+  .hero .hero-content .btn {
+    margin-bottom: 30px; }
 
 .navigation {
   -webkit-transition: all 100ms ease-in-out;
